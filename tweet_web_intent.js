@@ -13,7 +13,7 @@
 
   var tweetLink = '<a href="' + base_url +
     '?text=' + encodeURIComponent(text) +
-    '?url=' + url +
+    '&url=' + url +
     '&via=' + via +
     '&hashtags=' + hashtags +
     '&related=' + related +
